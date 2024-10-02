@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour And Travel Agency Website</title>
+
+    <!-- favicon icon  -->
+    <link rel="icon" href="images/favicon.png">
+
+    <!-- swiper cdn link  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <script src="https://kit.fontawesome.com/cca92cf0fb.js" crossorigin="anonymous"></script>
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- header section starts  -->
+    <header>
+
+        <div id="menu-bar" class="fa-solid fa-bars"></div>
+
+        <a href="#Home" class="logo"><span>T</span>ravel</a>
+
+        <nav class="navbar">
+            <a href="#Home">Home</a>
+            <a href="#Book">Book</a>
+            <a href="#Packages">Packages</a>
+            <a href="#Services">Services</a>
+            <a href="#Gallery">Gallery</a>
+            <a href="#Review">Review</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fa-solid fa-magnifying-glass" id="search-btn"></i>
+            <i class="fa-solid fa-user" id="login-btn"></i>
+        </div>
+
+        <form action="#" method="post" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fa-solid fa-magnifying-glass"></label>
+        </form>
+
+    </header>
+    <!-- header section ends  -->
+
+
+    <!-- login form container  -->
+
+    <div class="login-form-container">
+
+        <form action="#">
+
+            <i class="fa-solid fa-xmark" id="form-close"></i>
+
+            <h3>Login</h3>
+            <input type="email" class="box" placeholder="enter your email">
+            <input type="password" class="box" placeholder="enter your password">
+            <input type="submit" value="login" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forgot password <a href="#">click here</a> </p>
+            <p>Dont have an account ? <a href="#">register</a></p>
+        </form>
+
+    </div>
+
+    <!-- login form container ends  -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="Home">
+
+        <div class="content">
+            <h3>adventure is worthwhile</h3>
+            <p>discover new places with us, adventure awaits</p>
+            <a href="#" class="btn">discover more</a>
+        </div>
+
+        <div class="controls">
+            <span class="vid-btn active" data-src="images/vid-1.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-2.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-3.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-4.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-5.mp4"></span>
+        </div>
+
+        <div class="video-container">
+            <video src="images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+
+
+    </section>
+
+    <!-- home section ends  -->
+
+    <!-- book section starts  -->
+
+    <section class="book" id="Book">
+
+        <h1 class="heading">
+            <span>b</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span class="space"></span>
+            <span>n</span>
+            <span>o</span>
+            <span>w</span>
+        </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/book-img.jpg" alt="">
+            </div>
+
+            <form action="#">
+
+                <div class="inputbox">
+                    <h3>where to</h3>
+                    <input type="text" placeholder="place name">
+                </div>
+                <div class="inputbox">
+                    <h3>how many</h3>
+                    <input type="number" placeholder="number of guests">
+                </div>
+                <div class="inputbox">
+                    <h3>arrivals</h3>
+                    <input type="date">
+                </div>
+                <div class="inputbox">
+                    <h3>leaving</h3>
+                    <input type="date">
+                </div>
+                <input type="submit" class="btn" value="book now">
+
+            </form>
+        </div>
+    </section>
+
+    <!-- book section ends  -->
+
+    <!-- packages section starts  -->
+
+    <section class="packages" id="Packages">
+
+        <h1 class="heading">
+            <span>p</span>
+            <span>a</span>
+            <span>c</span>
+            <span>k</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/mumbai.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fa-solid fa-location-dot"></i> mumbai </h3>
+                    <p>Mumbai (formerly called Bombay) is a densely populated city on India’s west coast. A financial center, it's India's largest city. On the Mumbai Harbour waterfront stands the iconic Gateway of India stone arch</p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="price">$90.00 <span>$120.00</span> </div>
+                    <a href="#" class="btn"> book now </a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/hawaii.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fa-solid fa-location-dot"></i> hawai </h3>
+                    <p>Hawaii is a state in the Western United States, about 2,000 miles from the U.S. mainland in the Pacific Ocean. It is the only U.S. state outside North America, the only state that is an archipelago, and the only state in the tropics.</p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="price">$90.00 <span>$120.00</span> </div>
+                    <a href="#" class="btn"> book now </a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/sydney.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fa-solid fa-location-dot"></i> sydney </h3>
+                    <p>Sydney, capital of New South Wales and one of Australia's largest cities, is best known for its harbourfront Sydney Opera House, with a distinctive sail-like design. Massive Darling Harbour and the smaller Circular Quay port </p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="price">$90.00 <span>$120.00</span> </div>
+                    <a href="#" class="btn"> book now </a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/paris.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fa-solid fa-location-dot"></i> paris </h3>
+                    <p>Paris, France's capital, is a major European city and a global center for art, fashion, gastronomy and culture. Its 19th-century cityscape is crisscrossed by wide boulevards and the River Seine. </p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="price">$90.00 <span>$120.00</span> </div>
+                    <a href="#" class="btn"> book now </a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/tokyo.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fa-solid fa-location-dot"></i> tokyo </h3>
+                    <p>Tokyo, Japan’s busy capital, mixes the ultramodern and the traditional, from neon-lit skyscrapers to historic temples. The opulent Meiji Shinto Shrine is known for its towering gate and surrounding woods.</p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="price">$90.00 <span>$120.00</span> </div>
+                    <a href="#" class="btn"> book now </a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/egypt.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fa-solid fa-location-dot"></i> egypt </h3>
+                    <p>Egypt, a country linking northeast Africa with the Middle East, dates to the time of the pharaohs. Millennia-old monuments sit along the fertile Nile River Valley, including Giza's colossal Pyramids </p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="price">$90.00 <span>$120.00</span> </div>
+                    <a href="#" class="btn"> book now </a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- packages section ends  -->
+
+    <!-- services section starts  -->
+
+    <section class="services" id="Services">
+
+        <h1 class="heading">
+            <span>s</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fa-solid fa-hotel"></i>
+                <h3>affordable hotels</h3>
+                <p>budget hotels are designed to provide a safe, clean place to stay, with compact rooms that have a bed, clean sheets, bathroom, and basic furniture like a table and a clothes hanger. Extras like toiletries are sometimes provided as well.</p>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-utensils"></i>
+                <h3>food and drinks</h3>
+                <p>The food and beverage service is a process of preparing, presenting, and serving food and beverages to customers. Food can include a wide range of styles and cuisine types. These can be classified by country. Beverages include all alcoholic and non-alcoholic drinks.</p>
+            </div>
+            <div class="box">
+                <i class="fa-sharp fa-solid fa-bullhorn"></i>
+                <h3>safety guide</h3>
+                <p>The following information reflects our commitment to maintaining a safe operating environment and defines our responsibilities, as well as the responsibilities of clients participating in our tours, our Tour Guides, and our suppliers. </p>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-earth-asia"></i>
+                <h3>around the world</h3>
+                <p>Today, travel presence can be found in approximately 180 nations worldwide, with membership estimated at over two million. There are more than 123,000 travel groups around the world and travel's literature has been translated into over 100 languages.</p>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-plane"></i>
+                <h3>fastest travel</h3>
+                <p>travel is among the top OTAs in India. It enables travelers to search for transportation and hotels across India. To improve its offer and attract more customers travel introduced the “GoStays” feature, which highlights budget hotels with amenities.</p>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-person-hiking"></i>
+                <h3>adventures</h3>
+                <p>The Adventure Service you will receive high-quality outdoor learning experiences, through a variety of adventure-based activities.You will be supported and encouraged to do as much as you can from preparing and setting up of activities </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- services section ends  -->
+
+    <!-- gallery section starts  -->
+
+    <section class="gallery" id="Gallery">
+
+        <h1 class="heading">
+            <span>g</span>
+            <span>a</span>
+            <span>l</span>
+            <span>l</span>
+            <span>e</span>
+            <span>r</span>
+            <span>y</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/gallery-1.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Australia is the largest country by area in Oceania and the world's sixth-largest country.</p>
+                    <a href="" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/gallery-2.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Tokyo is the second-largest urban economy worldwide by gross domestic product after New York City</p>
+                    <a href="" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/gallery-3.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>It comprises England, Scotland, Wales, and Northern Ireland. It includes the island of Great Britain</p>
+                    <a href="" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/gallery-4.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Egypt officially the Arab Republic of Egypt, is a transcontinental country spanning the northeast corner of Africa</p>
+                    <a href="" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/gallery-5.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>The Maldives officially the Republic of Maldives is an archipelagic state and country in South Asia</p>
+                    <a href="" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/gallery-6.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>An island or isle is a piece of subcontinental land completely surrounded by water.</p>
+                    <a href="" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/gallery-7.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>West Bengal is a state in the eastern portion of India. It is situated along the Bay of Bengal</p>
+                    <a href="" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/gallery-8.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>The Taj Mahal is an ivory-white marble mausoleum on the right bank of the river Yamuna in Agra, Uttar Pradesh, India.</p>
+                    <a href="" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/gallery-9.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Romania is the twelfth-largest country in Europe and the sixth-most populous member state of the European Union</p>
+                    <a href="" class="btn">see more</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- gallery section ends  -->
+
+    <!-- review section starts  -->
+
+    <section class="review" id="Review">
+
+        <h1 class="heading">
+            <span>r</span>
+            <span>e</span>
+            <span>v</span>
+            <span>i</span>
+            <span>e</span>
+            <span>w</span>
+        </h1>
+
+        <div class=" swiper review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/review-1.jpg" alt="">
+                        <h3>ramesh kumar</h3>
+                        <p>Ankur was very good with making all the arrangements. He made sure everything was customised as per my requirements. It was a very comfortable arrangement. Our tour consultant Hannah was available almost the time. </p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/review-2.jpg" alt="">
+                        <h3>shravani</h3>
+                        <p>Our trip went smooth. All hotels are good. Cab could have beeb better . Driver was good and helpful. Not satisfied with house boat. House boat should be better for the price we are paying.Hannah was available almost the time.</p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/review-3.jpg" alt="">
+                        <h3>rajesh kumar</h3>
+                        <p>Everything was good but just want to request pls don't change the hotel at the last moment...the options i got for replacement were not as per the price i paid so had a discussion with the owner. It was a very comfortable arrangement.</p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/review-4.jpg" alt="">
+                        <h3>akhilesh yadav  </h3>
+                        <p>Our trip was very relaxing and amazing ..even last minute changes were taken care of nicely and hotels were good..only catch was the breakfast which we didn't like being vegetarian.  We love traveling with them</p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- review section ends  -->
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="Contact">
+
+        <h1 class="heading">
+            <span>c</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>t</span>
+        </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/contact.jpg" alt="">
+            </div>
+
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="name">
+                    <input type="email" placeholder="email">
+                </div>
+                <div class="inputBox">
+                    <input type="tel" placeholder="number">
+                    <input type="text" placeholder="subject">
+                </div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="message"></textarea>
+                <div class="inputBox2">
+                    <input type="submit" class="btn" value="submit">
+                </div>
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- contact section ends  -->
+
+    <!-- brand section starts  -->
+
+    <!-- <section class="brand-container">
+
+        <div class="swiper brand-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide"><img src="images/brand-1.png" alt=""></div>
+                <div class="swiper-slide"><img src="images/brand-2.png" alt=""></div>
+                <div class="swiper-slide"><img src="images/brand-3.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/brand-4.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/brand-5.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/brand-6.png" alt=""></div>
+
+            </div>
+
+        </div>
+
+    </section> -->
+
+    <!-- brand section ends  -->
+
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>about us</h3>
+                <p>Our mission is to be the leading and most trustworthy travel management company that sets the standard for professionalism, reliability and transparency to its customers.</p>
+            </div>
+            <div class="box">
+                <h3>branch locations</h3>
+                <a href="">india</a>
+                <a href="">usa</a>
+                <a href="">japan</a>
+                <a href="">france</a>
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#Home">home</a>
+                <a href="#Book">book</a>
+                <a href="#Packages">packages</a>
+                <a href="#Services">services</a>
+                <a href="#Review">review</a>
+                <a href="#Contact">contact</a>
+            </div>
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="">facebook</a>
+                <a href="">instagram</a>
+                <a href="">twitter</a>
+                <a href="">linkedin</a>
+            </div>
+
+        </div>
+
+        <h1 class="credit">created by <span> yogesh singh </span> | all rights reserved! </h1>
+
+    </section>
+
+
+
+    <!-- footer section ends  -->
+
+
+
+
+
+
+    <!-- swiper js link  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link    -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
